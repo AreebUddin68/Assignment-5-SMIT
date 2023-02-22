@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: lightblue;
+        width: 50%;
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px;
+      "
+    >
+      <h1 style="text-align: center">Student Registration Form</h1>
+      <form action="" method="post">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Your name" required />
+        <br />
+        <br />
+        <label>Father Name:</label>
+        <input
+          type="text"
+          name="fathername"
+          placeholder="Your father's name"
+          required
+        />
+        <br />
+        <br />
+        <label>Postal Address:</label>
+        <input
+          type="text"
+          name="postaladdress"
+          placeholder="Postal address"
+          required
+        />
+        <br />
+        <br />
+        <label>Personal Address:</label>
+        <input
+          type="text"
+          name="personaladdress"
+          placeholder="Personal address"
+          required
+        />
+        <br />
+        <br />
+        <label>Sex:</label>
+        <input type="radio" name="sex" value="male" required /> Male
+        <input type="radio" name="sex" value="female" required /> Female
+        <br />
+        <br />
+        <label>City:</label>
+        <select name="City">
+          <option value="Karachi">Karachi</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Faisalabad">Faisalabad</option>
+          <option value="Peshawar">Peshawar</option>
+          <option value="Multan">Multan</option>
+        </select>
+        <br />
+        <br />
+        <label>Course:</label>
+        <select name="course">
+          <option value="B.Sc">B.Sc</option>
+          <option value="B.A">B.A</option>
+          <option value="B.Tech">B.Tech</option>
+          <option value="M.Sc">M.Sc</option>
+          <option value="M.A">M.A</option>
+          <option value="M.Tech">M.Tech</option>
+        </select>
+        <br />
+        <br />
+        <label>PinCode:</label>
+        <input type="text" name="pincode" placeholder="Pin Code" required />
+        <br />
+        <br />
+        <label>EmailId:</label>
+        <input type="text" name="emailid" placeholder="Email Id" required />
+        <br />
+        <br />
+        <label>DOB:</label>
+        <input type="date" name="dob" value="2000-01-01" required />
+        <br />
+        <br />
+        <label>MobileNo:</label>
+        <input
+          type="text"
+          name="mobileno"
+          placeholder="Mobile Number"
+          required
+        />
+        <br />
+        <br />
+        <label>What do you have?</label><br />
+        <input type="checkbox" />
+        <label for="Device1"> I have a Mobile</label><br />
+        <input type="checkbox" />
+        <label for="Device2"> I have a Labtop</label><br />
+        <input type="checkbox" />
+        <label for="Device3"> I have a PC</label>
+        <br />
+        <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
